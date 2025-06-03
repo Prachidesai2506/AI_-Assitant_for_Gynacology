@@ -18,5 +18,52 @@ ObstetricAI is a conversational AI assistant designed to answer questions relate
 
 ---
 
-## 🧱 Project Structure
+
+## 🧱 Tech Stack
+
+| Component         | Tool / Library                            |
+|------------------|-------------------------------------------|
+| LLM              | Together.ai – DeepSeek-LLaMA-70B          |
+| Vector DB        | FAISS                                      |
+| Embeddings       | sentence-transformers/all-mpnet-base-v2   |
+| Framework        | LangChain                                  |
+| Memory           | ConversationBufferMemory                   |
+| UI               | Streamlit                                  |
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/obstetric-ai.git
+cd obstetric-ai
+
+
+---
+
+## 🧱 Tech Stack
+
+| Component         | Tool / Library                            |
+|------------------|-------------------------------------------|
+| LLM              | Together.ai – DeepSeek-LLaMA-70B          |
+| Vector DB        | FAISS                                      |
+| Embeddings       | sentence-transformers/all-mpnet-base-v2   |
+| Framework        | LangChain                                  |
+| Memory           | ConversationBufferMemory                   |
+| UI (Optional)    | Streamlit                                  |
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/obstetric-ai.git
+cd obstetric-ai
+
+python -m venv venv
+source venv/bin/activate     # Windows: venv\Scripts\activate
 
